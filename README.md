@@ -13,7 +13,8 @@ var Path = Router.Path;
 
 var routes = new Path('*', require('./components/RootView'), [
   new Path('/home', require('./components/HomeView')),
-  new Path('/other/:resourceId', require('./components/OtherView'))
+  new Path('/other/:resourceId', require('./components/OtherView')),
+  new Path('*', require('./components/DefaultView')),
 ]);
 
 Router.run(routes, function(RootComponent, props) {
