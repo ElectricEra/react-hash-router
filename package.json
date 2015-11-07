@@ -8,9 +8,12 @@
   },
   "author": "Charles Luxton",
   "license": "MIT",
-  "devDependencies" : {
+  "devDependencies": {
     "babel-core": "^5.7.2",
     "babel-loader": "^5.3.2",
     "react": "^0.13.3"
+  },
+  "dependencies": {
+    "query-string": "^3.0.0"
   }
 }
