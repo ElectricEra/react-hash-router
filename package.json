@@ -1,6 +1,6 @@
 {
   "name": "react-hash-router",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "A basic hash router with support for nested routes. <12kb.",
   "main": "index.js",
   "scripts": {
@@ -17,7 +17,7 @@
     "query-string": "^3.0.0"
   },
   "peerDependencies": {
-    "react": "^0.13.0"
+    "react": "^0.14.0"
   },
   "tags": [
     "react",
