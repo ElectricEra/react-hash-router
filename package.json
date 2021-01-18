@@ -22,7 +22,8 @@
     "query-string": "^3.0.0"
   },
   "peerDependencies": {
-    "react": "^17.0.0"
+    "react": "*",
+    "prop-types": "*"
   },
   "tags": [
     "react",
