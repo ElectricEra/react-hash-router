@@ -1,6 +1,6 @@
 {
   "name": "react-hash-router",
-  "version": "0.2.0",
+  "version": "1.0.0",
   "description": "A basic hash router with support for nested routes. <12kb.",
   "main": "index.js",
   "scripts": {
@@ -12,12 +12,17 @@
   },
   "homepage": "https://github.com/cluxton/react-hash-router/blob/master/README.md",
   "author": "Charles Luxton",
+  "maintainers": [
+    {
+      "name": "Yuriy Pankiv"
+    } 
+  ],
   "license": "MIT",
   "dependencies": {
     "query-string": "^3.0.0"
   },
   "peerDependencies": {
-    "react": "^0.14.0"
+    "react": "^17.0.0"
   },
   "tags": [
     "react",
